@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,700;1,300;1,400&family=Raleway&family=Yeon+Sung&display=swap');
+body{
+  background: #19202b;
+  font-family: 'Raleway', sans-serif;
+}
+/** HEADER WORK **/
+.navbar{
+  background: #19202b;
+}
+.navbar-brand{
+  font-size: 30px;
+  font-weight: 700;
+  font-family: 'Yeon Sung', cursive;
+  text-decoration: underline;
+  text-decoration-color: red;
+  letter-spacing: 4px;
+}
+.navbar-nav .nav-link:hover{
+  border-bottom: 2px solid red;
+}
+.nav-link{
+  display: inline;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  color: #fff;
+  letter-spacing: 2px;
+}
+.nav-home i{
+  font-size: 25px;
+  text-decoration-color:
+}
+/** END HEADER WORK **/
+/** HOME SECTION WORK **/
+#home-main-section{
+  background: url(../img/banner.jpg) no-repeat center top;
+  background-size: cover;
+  min-height: 700px;
+  background-attachment: fixed;
+}
+#home-main-section .dark-overly{
+  background: #19202b;
+  opacity: .8;
+  min-height: 700px;
+}
+#home-main-section .home-inner{
+  padding-top: 300px;
+  padding-bottom: 50px;
+}
+#home-main-section h1{
+  font-weight: 700;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #fff;
+}
+#home-main-section .btn{
+  border: 1px solid #bc333c;
+  padding: 15px 35px;
+  font-weight: 300;
+  font-family: 'Josefin Sans', sans-serif;
+}
+/** END HOME SECTION WORK **/
+/** ABOUT SECTION **/
+#about-section .text-danger {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+}
+#about-section b{
+  letter-spacing: 3px;
+}
+#about-section p {
+  font-family: 'Josefin Sans', sans-serif;
+}
+#about-section img {
+  width: 480px;
+  height: 570px;
+  border-radius: 10px;
+}
+/** END ABOUT SECTION **/
+/** SERVICES SECTION **/
+#services-section{
+  background: #F0F0F4;
+}
+#services-section .text-head{
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+#services-section h1{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+#services-section h4{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 22px;
+}
+#services-section i{
+  background: #fff;
+  font-size: 45px;
+  border: 5px solid #F0F0F4;
+  margin-top: -50px;
+  color: #bc333c;
+  padding: 25px 20px;
+  margin-bottom: 20px;
+}
+/** END SERVICES SECTION **/
+/** TESTIMONIAL SECTION **/
+#testimonial-section h4{
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+#testimonial-section h1{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+}
+.carousel-control-prev{
+  background: #19202b;
+}
+.carousel-control-next{
+  background: #19202b;
+}
+#testimonial-section i{
+  background: #fff;
+  font-size: 45px;
+  border: 5px solid #F0F0F4;
+  color: #bc333c;
+  padding: 20px;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+/** END TESTIMONIAL SECTION **/
+/** PACKAGES-SECTION **/
+#packages-section h4{
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+#packages-section h1{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+}
+#packages-section .text-dolor{
+  font-size: 40px;
+}
+#packages-section h5{
+  font-size: 16px;
+}
+#packages-section a:hover{
+  background: #E02F36;
+  border: none;
+}
+/** END PACKAGES-SECTION **/
+/** WINING PROJECTS **/
+#wining-section h1{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+}
+#wining-section{
+  background: #EFEFF5;
+}
+#wining-section i{
+  background: #fff;
+  font-size: 45px;
+  border: 5px solid #F0F0F4;
+  margin-top: -50px;
+  color: #bc333c;
+  padding: 25px 20px;
+  margin-bottom: 20px;
+}
+/** END WINING PROJECTS **/
+/** ACCORDION SECTION **/
+#accordion h1{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+#accordion a{
+  text-decoration: none;
+}
+/** END ACCORDION SECTION **/
+/** MY GALLERY **/
+#gallery h2{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #bc333c;
+  font-size: 25px;
+  letter-spacing: 3px;
+}
+#gallery p{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+}
+#gallery img{
+  min-height: 300px;
+}
+/** END MY GALLERY **/
+/** FACEBOOK CONTACT **/
+#facebook h3{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  color: #fff;
+}
+#facebook a img:hover{
+  opacity: .9;
+}
+/** END FACEBOOK CONTACT **/
+/** CONTACT SECTION **/
+#contact-section .form-color{
+  background: #F0F0F0;
+}
+#contact-section h3{
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+#contact-section h1{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 30px;
+}
+/** END CONTACT SECTION **/
+/** FOOTER SECTION **/
+#footer-section h6{
+  color: #fff;
+}
+#footer-section .text-danger{
+  border-top: 2px solid #bc333c;
+  border-bottom: 2px solid #bc333c;
+  text-decoration: none;
+}
+#footer-section i{
+  background: #F0F0F0;
+  color: #bc333c;
+  padding: 8px;
+}
+/** END FOOTER SECTION **/
+/** MEDIA WORK **/
+@media (max-width: 1199.98px) {
+  .container{
+    max-width: 100%;
+    padding: 0 60px;
+  }
+ }
+ @media (max-width: 750px) {
+   #home-main-section .home-inner{
+     padding-top: 180px;
+   }
+   #about-section img {
+     width: 400px;
+     height: 500px;
+   }
+   #about-section .text-danger {
+     font-size: 25px;
+   }
+   #services-section h1{
+     font-size: 30px;
+   }
+   #facebook h3{
+     font-size: 30px;
+   }
+   #facebook img{
+     width: 1000px;
+     height: 400px;
+   }
+  }
+  @media (max-width: 550px) {
+    #home-main-section h1{
+      font-size: 30px;
+    }
+    #home-main-section .home-inner{
+      padding-top: 150px;
+    }
+    #about-section img {
+      width: 300px;
+      height: 400px;
+    }
+    #services-section h1{
+      font-size: 25px;
+    }
+    #facebook h3{
+      font-size: 25px;
+    }
+    #facebook img{
+      width: 850px;
+      height: 300px;
+    }
+   }
+/** END MEDIA WORK **/
