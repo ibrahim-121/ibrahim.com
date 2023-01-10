@@ -52,6 +52,9 @@ body{
   font-family: 'Josefin Sans', sans-serif;
   color: #fff;
 }
+#home-main-section p{
+  font-weight: bold;
+}
 #home-main-section .btn{
   border: 1px solid #bc333c;
   padding: 15px 35px;
@@ -267,11 +270,24 @@ body{
    }
   }
   @media (max-width: 550px) {
+    .container{
+      padding: 0 0;
+    }
+    #home-main-section p{
+      font-weight: bold;
+    }
     #home-main-section h1{
       font-size: 30px;
+      padding: 0 15px;
     }
     #home-main-section .home-inner{
-      padding-top: 150px;
+      padding-top: 130px;
+    }
+    #home-main-section{
+      min-height: 550px;
+    }
+    #home-main-section .dark-overly{
+      min-height: 550px;
     }
     #about-section img {
       width: 300px;
@@ -287,5 +303,60 @@ body{
       width: 850px;
       height: 300px;
     }
+    #packages-section h4{
+      font-size: 15px;
+      letter-spacing: 3px;
+    }
+    #packages-section h1{
+      font-size: 25px;
+      letter-spacing: 3px;
+    }
+    #wining-section,
+    #accordion,
+    #gallery,
+    #facebook {
+      padding: 0 20px;
+    }
    }
+@media (max-width: 480px) {
+     .container{
+       padding: 0 0;
+     }
+     #home-main-section p{
+       font-size: 15px;
+     }
+     #home-main-section .btn{
+       padding: 10px 30px;
+     }
+     #about-section img {
+       width: 250px;
+       height: 330px;
+     }
+     #services-section .text-head{
+       font-size: 15px;
+       letter-spacing: 1px;
+     }
+     #packages-section h1{
+       font-size: 22px;
+     }
+     #facebook h3{
+       font-size: 25px;
+     }
+     #facebook img{
+       width: 750px;
+       height: 180px;
+     }
+     #contact-section h3{
+       font-size: 15px;
+     }
+     #contact-section h1{
+       font-size: 25px;
+     }
+     #accordion a{
+       font-size: 15px;
+     }
+     #accordion .card-body{
+       font-size: 15px;
+     }
+    }
 /** END MEDIA WORK **/
